@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Região de Login</title>
+
+    <style>
+        body{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-image: linear-gradient(260deg, rgb(76, 0, 255) , rgba(68, 4, 128, 0.603));
+        }
+        .regiaoLogin{
+            background-color: rgba(157, 100, 221, 0.8);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 55px;
+            border-radius: 50px;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            
+        }
+
+        .campoUsuario{ 
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            text-align: center;
+        }
+        .campoSenha{
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            text-align: center;
+            margin: 5px;
+        }
+        .botaoEntrar{
+            background-color: rgba(rgb(132, 0, 255), green, blue, 0.9);
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            width: 72%;
+            font-size: 15px;
+        }
+        .botaoEntrar:hover{
+            background-color: rgb(21, 21, 156);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "regiaoLogin">
+        <h1>Login</h1>
+            <form for="nome"></form>
+            <input type="text" placeholder="Digite seu usuário" class="campoUsuario">
+            
+            <input type="password" placeholder="Digite sua senha" class="campoSenha">
+    
+            <button class="botaoEntrar">Entrar</button>
+    </div>
+</body>
+</html>
